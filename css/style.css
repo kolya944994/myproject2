@@ -2,13 +2,13 @@
 	font-family: 'TT Lakes-bold';
 	font-weight: bold;
 	font-style: normal;
-	src: url(/font/TTLakes-Bold.woff) format(woff);
+	src: url(../font/TTLakes-Bold.woff) format(woff);
 }
 @font-face {
 	font-family: 'TT Lakes-medium';
 	font-weight: 500;
 	font-style: normal;
-	src: url(/font/TTLakes-Medium.woff) format(woff);
+	src: url(../font/TTLakes-Medium.woff) format(woff);
 }
 html {
 	height: 100%;
@@ -51,12 +51,12 @@ html {
 	border: none;
 }
 .menu-button__burger {
-	background-image: url(/img/icon.svg);
+	background-image: url(../img/icon.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
 .menu-button__search {
-	background-image: url(/img/search.svg);
+	background-image: url(../img/search.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
@@ -80,7 +80,7 @@ html {
 	position: relative;
 }
 .catalog__link_display-element::before {
-	content: url(/img/highlight.svg);
+	content: url(../img/highlight.svg);
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
@@ -118,17 +118,17 @@ html {
 	border: none;
 }
 .contact__link_display-telephone {
-	background-image: url(/img/telephone.svg);
+	background-image: url(../img/telephone.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
 .contact__link_display-message {
-	background-image: url(/img/message.svg);
+	background-image: url(../img/message.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
 .contact__link_display-contact {
-	background-image: url(/img/contact.svg);
+	background-image: url(../img/contact.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
