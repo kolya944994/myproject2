@@ -80,9 +80,7 @@ html {
 	padding-left: 15px;
 	position: relative;
 }
-.catalog__list:hover .catalog__link {
-	opacity: 0.5;
-}
+
 .catalog__link_display-element::before {
 	content: url(../img/highlight.svg);
 	position: absolute;
