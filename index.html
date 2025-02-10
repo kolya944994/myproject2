@@ -10,62 +10,55 @@
 		<div class="container">
 			<header class="header">
 				<nav class="nav">
-					<ul class="nav__menu nav__menu_right">
-						<li class="menu-list menu-list__burger">
-							<button
-								class="menu-button menu-button__burger"
-								type="button"
-							></button>
-						</li>
-						<li class="menu-list menu-list__logo">
-							<a href="#">
-								<img src="img/Group.svg" alt="Логотип" />
-							</a>
-						</li>
-					</ul>
+					<div class="nav__container nav__container_left">
+						<button
+							class="nav__button nav__button_burger-display"
+							type="button"
+						></button>
 
-					<ul class="nav__menu nav__menu_left">
-						<li class="menu-list menu-list__search">
-							<button
-								class="menu-button menu-button__search"
-								type="button"
-							></button>
-						</li>
-					</ul>
+						<a href="#">
+							<img src="img/Group.svg" alt="Логотип" />
+						</a>
+					</div>
+					<div class="nav__container nav__container_right">
+						<button
+							class="nav__button nav__button_search-display"
+							type="button"
+						></button>
+					</div>
 				</nav>
 			</header>
-			<main class="main">
-				<div class="main__menu">
-					<ul class="catalog">
-						<li class="catalog__list catalog__list_display-element">
-							<a class="catalog__link catalog__link_display-element" href="#"
-								>Ремонт техники</a
-							>
-						</li>
-						<li class="catalog__list">
-							<a class="catalog__link" href="#">Услуги и сервисы</a>
-						</li>
-						<li class="catalog__list">
-							<a class="catalog__link" href="#">Корпоративным клиентам</a>
-						</li>
-						<li class="catalog__list">
-							<a class="catalog__link" href="#">Продавцам техники</a>
-						</li>
-						<li class="catalog__list">
-							<a class="catalog__link" href="#">Партнерам</a>
-						</li>
-						<li class="catalog__list">
-							<a class="catalog__link" href="#">Производителям</a>
-						</li>
-						<li class="catalog__list">
-							<a class="catalog__link" href="#">Наши сервисные центры</a>
-						</li>
-						<li class="catalog__list">
-							<a class="catalog__link" href="#">Контакты</a>
-						</li>
-					</ul>
-				</div>
-			</main>
+			<div class="main-menu">
+				<ul class="catalog">
+					<li class="catalog__list catalog__list_display-element">
+						<a class="catalog__link catalog__link_display-element" href="#"
+							>Ремонт техники</a
+						>
+					</li>
+					<li class="catalog__list">
+						<a class="catalog__link" href="#">Услуги и сервисы</a>
+					</li>
+					<li class="catalog__list">
+						<a class="catalog__link" href="#">Корпоративным клиентам</a>
+					</li>
+					<li class="catalog__list">
+						<a class="catalog__link" href="#">Продавцам техники</a>
+					</li>
+					<li class="catalog__list">
+						<a class="catalog__link" href="#">Партнерам</a>
+					</li>
+					<li class="catalog__list">
+						<a class="catalog__link" href="#">Производителям</a>
+					</li>
+					<li class="catalog__list">
+						<a class="catalog__link" href="#">Наши сервисные центры</a>
+					</li>
+					<li class="catalog__list">
+						<a class="catalog__link" href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+
 			<footer class="footer">
 				<div class="contact">
 					<div class="contact__menu">
@@ -78,8 +71,12 @@
 
 						<a class="contact__link contact__link_display-contact" href="#"></a>
 					</div>
-					<div class="contact__email">mail@cps.com</div>
-					<div class="contact__telephone">8 800 890 8900</div>
+					<div class="contact__email">
+						<a href="mailto:mail@cps.com">mail@cps.com</a>
+					</div>
+					<div class="contact__telephone">
+						<a href="tel:88008908900">8 800 890 8900</a>
+					</div>
 				</div>
 				<ul class="language">
 					<li class="language__list">
